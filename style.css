@@ -1,0 +1,158 @@
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+*{
+  margin: 0;
+  background: var(--background);
+}
+
+main{
+  margin: 0;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+.formWrapper h3{
+  color: var(--text-title);
+}
+
+.email{
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid var(--text-base);
+}
+
+.email:hover, .senha:hover{
+  
+border: 1px solid #FFC632;
+box-shadow: 0px 0px 0px 2px #FFDE88;
+border-radius: 4px;
+}
+.senha{
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid var(--text-base);
+}
+
+
+
+.formWrapper{
+  margin: 120px 50px;
+  
+  width: 500px;
+  height: 500px;
+  color: var(--text-base);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  
+  background: var(--form-background);
+}
+
+.formWrapper label{
+  font-size: 14px;
+}
+.checkbox,
+.formTitle,
+.check,
+.forget,
+form,
+p,
+a,
+input,
+label,
+h3, 
+span{
+  background-color: transparent;
+  color: var(--text-base);
+  
+}
+
+.formWrapper a,
+.formWrapper p{
+  text-align: center;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.formWrapper a{
+  font-weight: 600;
+  
+}
+
+.checkbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.checkbox a{
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.formTitle {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin-left: -5px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  gap: 5px;
+}
+
+.formTitle p{
+  font-size: 14px;
+}
+
+.formTitle img{
+  background-color: transparent;
+}
+
+.check{
+  display: flex;
+  gap: 5px;
+}
+
+button{
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif; 
+  font-weight: bold;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+  color:#473404;
+
+  width: 305px;
+  height: 45px;
+  background: #FFC632;
+  border-radius: 4px;
+
+  border: none;
+
+  margin-bottom: 10px;
+}
+
+.logo{
+  margin: 40px 40px;
+}

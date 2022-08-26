@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Form CSS</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logotipo" />
+        </div>
+        <div class="formWrapper">
+          <div class="formTitle">
+            <img src="./images/log-in.svg" />
+            <h3>Faça seu login</h3>
+
+            <p>Entre com suas informações de cadastro</p>
+          </div>
+          <form action="post" class="form">
+            <label for="email">E-mail</label>
+            <input
+              type="text"
+              name="email"
+              id=""
+              class="email"
+              placeholder="Digite seu Email"
+            />
+
+            <label for="senha">Senha</label>
+            <input
+              type="text"
+              name="senha"
+              id="senha"
+              class="senha"
+              placeholder="Digite sua senha"
+            />
+            <div class="checkbox">
+              <div class="check">
+                <input type="checkbox" name="lembreMe" id="checkbox" />
+                <label for="lembreMe">Lembre-me</label>
+              </div>
+              <div class="forget">
+                <a href="#">Esqueci minha senha</a>
+              </div>
+            </div>
+            <button>ENTRAR</button>
+            <p>Não tem uma conta? <a href="#registrar">Registre-se</a></p>
+          </form>
+        </div>
+      </section>
+      <section>
+        <img src="./images/side-image.jpg" alt="Imagem form" />
+      </section>
+    </main>
+  </body>
+</html>
